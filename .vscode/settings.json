@@ -1,6 +1,8 @@
 {
   "files.exclude": {
-    "**/*.class": true
+    "**/*.class": true,
+    "**/bin": true,
+    "**/out": true
   },
   "search.exclude": {
     "**/*.class": true
