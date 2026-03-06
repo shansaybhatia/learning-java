@@ -20,7 +20,7 @@ public class nestedif {
                 System.out.println("The discounted price is: $" + price);
             } else {
                 System.out.println("You are not eligible for a discount.");
-                System.out.println("The price is: $" + price); 
+                System.out.println("The price is: $" + price);
             }
         }
     }
