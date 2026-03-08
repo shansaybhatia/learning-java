@@ -23,5 +23,10 @@ public class nestedif {
                 System.out.println("The price is: $" + price);
             }
         }
+
+        // Ternary operator example
+        String discountMessage = isStudent ? (isSenior ? "You are a senior student. You get a 20% discount." : "You are a student. You get a 10% discount.") : (isSenior ? "You are a senior. You get a 15% discount." : "You are not eligible for a discount.");
+        System.out.println(discountMessage);
+
     }
 }
