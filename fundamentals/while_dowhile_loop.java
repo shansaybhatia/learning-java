@@ -43,6 +43,15 @@ public class while_dowhile_loop {
         }
         System.out.println("The sum of first " + m + " natural numbers is: " + sum);
 
+        //reversing a number using while loop
+        int a = 10899;
+        while(a>0){
+            int lastDigit = a % 10;
+            System.out.print(lastDigit);
+            a /= 10;
+        }
+
         sc.close();
+
     }
 }
